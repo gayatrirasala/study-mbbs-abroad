@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study MBBS Abroad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Hero Section -->
+    <section class="bg-blue-600 text-white text-center py-16">
+        <h1 class="text-4xl font-bold">Study MBBS Abroad</h1>
+        <p class="mt-2 text-lg">Start your journey to become a doctor today!</p>
+        <a href="#apply" class="mt-4 inline-block bg-yellow-400 text-black px-6 py-2 rounded-lg">Apply Now</a>
+    </section>
+
+    <!-- Why Study MBBS Abroad -->
+    <section class="max-w-4xl mx-auto py-12 px-6">
+        <h2 class="text-2xl font-bold text-center">Why Study MBBS Abroad?</h2>
+        <ul class="mt-4 space-y-2">
+            <li>✅ Affordable tuition fees</li>
+            <li>✅ World-class universities</li>
+            <li>✅ International exposure</li>
+            <li>✅ Recognized degrees</li>
+        </ul>
+    </section>
+
+    <!-- Top Countries -->
+    <section class="bg-white py-12 text-center">
+        <h2 class="text-2xl font-bold">Top Countries</h2>
+        <div class="flex flex-wrap justify-center gap-4 mt-4">
+            <span class="bg-blue-500 text-white px-4 py-2 rounded-lg">Russia</span>
+            <span class="bg-blue-500 text-white px-4 py-2 rounded-lg">Uzbekistan</span>
+            <span class="bg-blue-500 text-white px-4 py-2 rounded-lg">Kazakhstan</span>
+            <span class="bg-blue-500 text-white px-4 py-2 rounded-lg">Philippines</span>
+            <span class="bg-blue-500 text-white px-4 py-2 rounded-lg">Georgia</span>
+        </div>
+    </section>
+
+    <!-- Admission Process -->
+    <section class="max-w-4xl mx-auto py-12 px-6">
+        <h2 class="text-2xl font-bold text-center">Admission Process & Eligibility</h2>
+        <ol class="list-decimal pl-5 mt-4">
+            <li>Submit application form</li>
+            <li>Receive admission letter</li>
+            <li>Apply for a student visa</li>
+            <li>Book your flight and start your journey!</li>
+        </ol>
+    </section>
+
+    <!-- Application Form -->
+    <section id="apply" class="bg-gray-200 py-12">
+        <h2 class="text-2xl font-bold text-center">Apply Now</h2>
+        <form method="POST" action="/submit" class="max-w-md mx-auto mt-6 bg-white p-6 rounded-lg shadow-md">
+            <input type="text" name="name" placeholder="Full Name" class="w-full p-2 border rounded mb-2" required>
+            <input type="email" name="email" placeholder="Email" class="w-full p-2 border rounded mb-2" required>
+            <input type="tel" name="phone" placeholder="Phone Number" class="w-full p-2 border rounded mb-2" required>
+            <select name="country" class="w-full p-2 border rounded mb-4" required>
+                <option value="">Select Country</option>
+                <option value="Russia">Russia</option>
+                <option value="Uzbekistan">Uzbekistan</option>
+                <option value="Kazakhstan">Kazakhstan</option>
+            </select>
+            <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded w-full">Submit</button>
+        </form>
+    </section>
+
+</body>
+</html>
