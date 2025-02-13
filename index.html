@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study MBBS Abroad - University Insights</title>
+    <meta name="description" content="Explore MBBS programs abroad in top countries. Apply now to start your medical journey.">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+    <!-- Tailwind CSS CDN (or Bootstrap) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- SEO & Tracking -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'YOUR_GA_ID');
+    </script>
+</head>
+<body class="font-sans bg-gray-100">
+    <!-- Hero Section -->
+    <header class="bg-blue-600 text-white text-center p-10">
+        <h1 class="text-3xl font-bold">Study MBBS Abroad</h1>
+        <p class="text-lg mt-2">Apply Now for Top Medical Universities</p>
+        <button class="mt-4 bg-white text-blue-600 font-bold py-2 px-6 rounded">Apply Now</button>
+    </header>
+
+    <!-- Why Study MBBS Abroad -->
+    <section class="p-6 bg-white text-center">
+        <h2 class="text-2xl font-semibold">Why Study MBBS Abroad?</h2>
+        <p class="mt-2 text-gray-600">Affordable tuition, globally recognized degrees, and top-notch facilities.</p>
+    </section>
+
+    <!-- Top Countries -->
+    <section class="p-6 bg-gray-200 text-center">
+        <h2 class="text-2xl font-semibold">Top Countries for MBBS</h2>
+        <div class="mt-4 flex flex-wrap justify-center gap-4">
+            <span class="bg-white shadow-md p-4 rounded">Russia</span>
+            <span class="bg-white shadow-md p-4 rounded">Uzbekistan</span>
+            <span class="bg-white shadow-md p-4 rounded">Kazakhstan</span>
+            <span class="bg-white shadow-md p-4 rounded">Philippines</span>
+            <span class="bg-white shadow-md p-4 rounded">Georgia</span>
+            <span class="bg-white shadow-md p-4 rounded">Kyrgyzstan</span>
+            <span class="bg-white shadow-md p-4 rounded">Egypt</span>
+        </div>
+    </section>
+
+    <!-- Admission Process & Eligibility -->
+    <section class="p-6 bg-white text-center">
+        <h2 class="text-2xl font-semibold">Admission Process & Eligibility</h2>
+        <p class="mt-2 text-gray-600">Follow these steps to apply: Fill the form, submit documents, and get admission confirmation.</p>
+    </section>
+
+    <!-- Lead Generation Form -->
+    <section class="p-6 bg-gray-200 text-center">
+        <h2 class="text-2xl font-semibold">Apply Now</h2>
+        <form id="leadForm" class="mt-4 bg-white p-6 shadow-lg rounded max-w-md mx-auto">
+            <input type="text" id="name" class="w-full p-2 border rounded mb-2" placeholder="Full Name" required>
+            <input type="email" id="email" class="w-full p-2 border rounded mb-2" placeholder="Email" required>
+            <input type="tel" id="phone" class="w-full p-2 border rounded mb-2" placeholder="Phone" required>
+            <select id="country" class="w-full p-2 border rounded mb-2">
+                <option value="">Select Country Preference</option>
+                <option>Russia</option>
+                <option>Uzbekistan</option>
+                <option>Kazakhstan</option>
+                <option>Philippines</option>
+                <option>Georgia</option>
+                <option>Kyrgyzstan</option>
+                <option>Egypt</option>
+            </select>
+            <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded">Submit</button>
+        </form>
+        <p id="formMessage" class="text-green-600 mt-2 hidden">Thank you! We will contact you soon.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
